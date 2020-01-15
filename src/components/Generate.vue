@@ -11,6 +11,9 @@
                 <h4>
                     by <a target="_blank" href="https://instagram.com/ricez_">Ric Ez</a>
                 </h4>
+                <h5>
+                    <a target="_blank" href="https://github.com/ric-ez/bacod-generator">Source Code</a>
+                </h5>
             </div>
         </div>
 
