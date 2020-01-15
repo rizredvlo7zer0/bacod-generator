@@ -33,6 +33,9 @@
                 <button @click="changeType('byksw', 'bahasa para byksw')" v-bind:class="[type === 'byksw' ? 'btn-primary' : 'btn-outline-primary']" class="btn mx-1 font-weight-bold" style="letter-spacing: 2px;">
                     Byksw
                 </button>
+                <button @click="changeType('alay', 'bahasa alay')" v-bind:class="[type === 'alay' ? 'btn-primary' : 'btn-outline-primary']" class="btn mx-1 font-weight-bold" style="letter-spacing: 2px;">
+                    4L4Y
+                </button>
             </div>
         </div>
 
@@ -84,6 +87,17 @@ export default {
                     .replace(/o/gi, 'w')
                     .replace(/a/gi, 'w')
                     .replace(/u/gi, 'w')
+                    break;
+                case 'alay':
+                    res = 
+                    this.bacod
+                    .replace(/a/gi, '4')
+                    .replace(/b/gi, '13')
+                    .replace(/e/gi, '3')
+                    .replace(/g/gi, '6')
+                    .replace(/i/gi, '1')
+                    .replace(/o/gi, '0')
+                    .replace(/s/gi, '5')
                     break;
                 default:
                     res = this.bacod.replace(/a|i|u|e|o/gi, 'i');
